@@ -2,36 +2,7 @@
 layout: main
 title: home
 ---
-<h1>dyn.js</h1>
-<p>
-  100% invokedynamic ecmascript 5 implementation
-</p>
-<h2>What is dyn.js?</h2>
-<p>dyn.js aims to be the fucking best dynamic programming language that ever. It's 
-care-free realtime 100% Javascript</p>
-
-<div id="example1">
-  {% highlight javascript %}
-  var io = require('socket.io').listen(80);
-
-  io.sockets.on('connection', function(socket) {
-    socket.emit('news', { hello: 'world' });
-    socket.on('my other event', function(data) {
-      console.log(data);
-    });
-  });
-  {% endhighlight %}
-</div>
-
-<div id="example2">
-  {% highlight javascript %}
-  <script src="/socket.io/socket.io.js"></script>
-  <script>
-    var socket = io.connect('http://localhost');
-    socket.on('news', function(data) {
-      console.log(data);
-      socket.emit('my other event', { my: 'data' });
-    });
-  </script>
-  {% endhighlight %}
+<div id="center">
+  <h1>dyn.js</h1>
+  <a href="https://github.com/dynjs/dyn.js">https://github.com/dynjs/dyn.js</a>
 </div>

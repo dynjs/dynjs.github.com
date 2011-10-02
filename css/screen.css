@@ -1,22 +1,31 @@
 body {
-  background-color: #387096;
+  background-color: #ffffff;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+h1 {
+  width: 447px;
+  padding: 338px 0 0 0; /* padding-top=altura imagem */
+  overflow: hidden;
+  background: url(/img/logo.png) no-repeat;
+  height: 0 !important;
+  height /**/:338px; /* height=altura imagem - hack IE5's */
 }
 
-ul {
-  list-style-type: none;
-  margin-left: 40%;
+#center {
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
-li {
-  float: left;
-  padding-right: 32px;
-}
-
-li a {
-  color: #ffffff;
+a {
+  font-size: 28px;
+  letter-spacing: -1px;
+  font-family: helvetica,arial,freesans,clean,sans-serif;
+  text-decoration: none;
+  color: #2F8580;
+  font-weight: bold;
+  margin-top: -100px;
+  margin-left: 40px;
 }
