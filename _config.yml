@@ -1,0 +1,5 @@
+---
+domain: about.dynjs.org
+permalink:  /:title/
+exclude: sync.sh
+
