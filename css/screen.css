@@ -11,21 +11,8 @@ h1 {
   height /**/:338px; /* height=altura imagem - hack IE5's */
 }
 
-#center {
-  position: fixed;
-  top: 20%;
-  left: 40%;
-  margin-top: -50px;
-  margin-left: -100px;
+
+#center * {
+	margin: 10px auto;
 }
 
-a {
-  font-size: 28px;
-  letter-spacing: -1px;
-  font-family: helvetica,arial,freesans,clean,sans-serif;
-  text-decoration: none;
-  color: #2F8580;
-  font-weight: bold;
-  margin-top: -100px;
-  margin-left: 40px;
-}
