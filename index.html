@@ -2,29 +2,46 @@
 layout: main
 title: home
 ---
-<div id="center">
-	<a href="https://github.com/dynjs/dyn.js"><img src="/img/logo.png"/></a>
-	<hr/>
-	<table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
-		<tr><td>
-				<img src="http://groups.google.com/intl/en/images/logos/groups_logo_sm.gif"
-				height=30 width=140 alt="Google Groups">
-		</td></tr>
-		<tr><td style="padding-left: 5px">
-				<b>Subscribe to dynjs-dev</b>
-		</td></tr>
-		<form action="http://groups.google.com/group/dynjs-dev/boxsubscribe">
-			<tr><td style="padding-left: 5px;">
-					Email: <input type=text name=email>
-					<input type=submit name="sub" value="Subscribe">
-			</td></tr>
-		</form>
-		<tr><td align=right>
-				<a href="http://groups.google.com/group/dynjs-dev">Visit this group</a>
-		</td></tr>
-	</table>
-	<hr/>
-	<a href="https://dynjs.ci.cloudbees.com/"><img src="http://static-www.cloudbees.com/images/badges/BuiltOnDEV.png"/></a>
-	<hr/>
-	<h3>this site is ugly! help-me fix this :)</h3>
+<div class="topbar">
+  <div class="fill">
+    <div class="container">
+      <a class="brand" href="#">dynjs.org</a>
+      <ul class="nav">
+        <li class="active"><a href="#">Home</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
+
+<div class="container">
+
+  <div class="media-grid">
+    <a href="https://github.com/dynjs/dyn.js"><img src="img/logo.png"/></a>
+  </div>
+
+  <div class="row">
+    <div class="span4">
+      <h2>Github</h2>
+      <p><a href="https://github.com/dynjs/dyn.js">dyn.js</a> repository is open for contribution and evaluation. Don't be shy!</p>
+    </div>
+    <div class="span4">
+      <h2>dynjs-dev</h2>
+      <img src="http://groups.google.com/intl/en/images/logos/groups_logo_sm.gif"
+      height=30 width=140 alt="Google Groups">
+      <p>Subscribe to <a href="http://groups.google.com/group/dynjs-dev">mailing list</a> and join us for technical discussions and suggestions. We appreciate feedback.</p>
+    </div>
+    <div class="span4">
+      <h2>CloudBees</h2>
+      <a href="https://dynjs.ci.cloudbees.com/"><img src="http://static-www.cloudbees.com/images/badges/BuiltOnDEV.png"/></a>
+      <p>Our continuous integration (CI) server is hosted by CloudBees, a nice cloud-hosted version of the Jenkins tooling to keep us sane.</p>
+    </div>
+    <div class="span4">
+      <h2>Twitter</h2>
+      <p>Follow <a href="http://twitter.com/dynjs">@dynjs</a> for news and updates about dyn.js.</p>
+    </div>
+
+  </div>
+  <footer>
+  <p><b>&copy; dynjs.org 2011</b></p>
+  </footer>
+</div> 
