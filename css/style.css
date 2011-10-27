@@ -174,10 +174,6 @@ a {
     margin-left: 20px;
 }
 
-.row {
-    margin-left: -20px;
-}
-
 .row:after {
     clear: both;
 }
@@ -195,11 +191,18 @@ a {
 
 footer {
     border-top: 1px solid #EEEEEE;
-    margin-top: 17px;
+    margin-top 17px;
     padding-top: 17px;
 }
 
 /****************************** BOX *******************************/
+div.box {
+  padding: 10px;
+  width: 195px;
+  padding: 10px;
+  height: 120px;
+}
+
 p.boxtitle  {
   height: 32px;
   padding-bottom:2px:
