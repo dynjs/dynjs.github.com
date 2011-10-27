@@ -4,19 +4,35 @@
     	<meta charset="utf-8">
 		<title>{{ page.title }} | dyn.js - (almost) 100% invokedynamic ecmascript implementation</title>
    		<link type="text/css" rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-26472175-1']);
-			_gaq.push(['_trackPageview']);
-        
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
   	</head>
 	<body>
-		{{ content }}
+      <div class="topbar">
+        <div class="fill">
+          <div class="container">
+              <a class="brand" href="#">dynjs.org</a>
+              <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li style="display:none"><a href="docs/documentation.html">Documentation</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        {{ content }}
+        <footer>
+          <p><b>&copy; dynjs.org 2011</b></p>
+        </footer>
+      </div>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-26472175-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
 	</body>
 </html>
