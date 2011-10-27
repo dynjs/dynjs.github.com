@@ -169,9 +169,8 @@ a {
 }
 
 [class*="span"] {
-    display: inline;
     float: left;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
 .row:after {
@@ -198,17 +197,18 @@ footer {
 /****************************** BOX *******************************/
 div.box {
   padding: 10px;
-  width: 195px;
-  padding: 10px;
+  width: 200px;
+  padding: 10px 0 30px 0;
   height: 120px;
 }
 
 p.boxtitle  {
   height: 32px;
-  padding-bottom:2px:
+  width:200px;
+  padding-bottom:15px;
 }
+
 p.boxtitle img, p.boxtitle strong {
   vertical-align: middle;
 }
-
 
