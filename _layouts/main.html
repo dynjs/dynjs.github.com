@@ -8,7 +8,7 @@
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-26472175-1']);
 			_gaq.push(['_trackPageview']);
-        
+
 			(function() {
 				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -17,6 +17,32 @@
 		</script>
   	</head>
 	<body>
-		{{ content }}
+      <div class="topbar">
+        <div class="fill">
+          <div class="container">
+            <a class="brand" href="#">dynjs.org</a>
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="docs/documentation.html">Documentation</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {{ content }}
+      <footer>
+        <p><b>&copy; dynjs.org 2011</b></p>
+      </footer>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-26472175-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
 	</body>
 </html>
