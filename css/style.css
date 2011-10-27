@@ -204,7 +204,7 @@ p.boxtitle  {
   height: 32px;
   padding-bottom:2px:
 }
-p.boxtitle img {
+p.boxtitle img, p.boxtitle strong {
   vertical-align: middle;
 }
 
