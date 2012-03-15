@@ -5,7 +5,7 @@ profiles:
   staging:
     base_url: http://staging.dynjs.org/
     deploy:
-      host: dynjs.org
+      host: staging.dynjs.org
       path: /var/www/domains/dynjs.org/staging/htdocs/
   production:
     base_url: http://dynjs.org/
