@@ -1,0 +1,14 @@
+
+#skin_dir: ../site-skin
+profiles:
+  development:
+  staging:
+    base_url: http://staging.dynjs.org/
+    deploy:
+      host: dynjs.org
+      path: /var/www/domains/dynjs.org/staging/htdocs/
+  production:
+    base_url: http://dynjs.org/
+    deploy:
+      host: dynjs.org
+      path: /var/www/domains/dynjs.org/www/htdocs/
